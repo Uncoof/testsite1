@@ -714,6 +714,24 @@ header {
     .heading h1{
         font-size: 1.2rem;
     }
+    .home-text span{
+        font-size: 1.4rem;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .home-text h1{
+        font-size: 0.8rem;
+        bottom: 20px;
+        left: 20px;
+    }
+    .home-text btn{
+        position: abosolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 0.8rem;
+        padding: 0.6rem 1.5rem;
+    }
     .about{
         grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
     }
@@ -766,24 +784,7 @@ header {
         padding-top: 50px;
         padding-bottom: 10rem;
     }
-    .home-text span{
-        font-size: 1.4rem;
-        position: absolute;
-        top: 20px;
-        left: 20px;
-    }
-    .home-text h1{
-        font-size: 0.8rem;
-        bottom: 20px;
-        left: 20px;
-    }
-    .home-text btn{
-        position: abosolute;
-        bottom: 20px;
-        right: 20px;
-        font-size: 0.8rem;
-        padding: 0.6rem 1.5rem;
-    }
+    
     .heading {
         flex-direction: column;
         text-align: center;
