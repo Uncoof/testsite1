@@ -767,10 +767,22 @@ header {
         padding-bottom: 10rem;
     }
     .home-text span{
-        font-size: 0.8rem;
+        font-size: 1.4rem;
+        position: absolute;
+        top: 20px;
+        left: 20px;
     }
     .home-text h1{
-        font-size: 1.4rem;
+        font-size: 0.8rem;
+        bottom: 20px;
+        left: 20px;
+    }
+    .home-text btn{
+        position: abosolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 0.8rem;
+        padding: 0.6rem 1.5rem;
     }
     .heading {
         flex-direction: column;
